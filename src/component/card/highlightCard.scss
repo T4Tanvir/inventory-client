@@ -1,0 +1,24 @@
+ .highlightcard{
+    display: flex;
+    align-items: center;
+    max-width: 500px;
+    margin: 5px;
+    gap:50px;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(31, 33, 37, 0.47);
+    background-color:#20232A;
+    .icon{
+        color:#03C9D7;;
+        font-size: 100PX;   
+    }
+    .informations{
+        color:white;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 10px;
+        text-transform: capitalize;
+
+    }
+ }

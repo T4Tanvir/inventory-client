@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    .container{
+     flex:6;
+     background-color: aliceblue;
+     
+    }
+    .container{ 
+        height:100vh;
+        overflow-y: scroll;
+    }
+ }

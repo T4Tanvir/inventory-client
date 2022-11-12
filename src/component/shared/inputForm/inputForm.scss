@@ -1,0 +1,26 @@
+.formContainer{
+    width:90%;
+    margin:auto;
+    margin-top:70px;
+    padding:10px;
+
+    .title{
+        border:2px solid #e1e1;
+        color:#20232A;
+        text-align: center;
+        user-select:none;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 5px;
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    }
+    .inputContainer{
+        margin-top:10px;
+        padding: 5px;
+        border:2px solid #e1e1;
+        display:flex;
+        flex:5;
+        flex-wrap: wrap;
+    }
+      
+}

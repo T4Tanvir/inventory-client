@@ -1,0 +1,76 @@
+.nav{
+    background-color: #20232A;
+    color: #03C9D7;
+    min-height:50px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    position: fixed;
+    width: 100%;
+    z-index: 99999999;
+    top:0;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:95%;
+        margin:auto;
+        line-height: 15px;
+     
+        .menulogo{
+            display: flex;
+            justify-content: center;
+            gap:20px;
+         
+           .menu{
+            cursor:pointer
+           }
+            .logo{
+                font-weight: bold;
+                color: #f1f1f1;
+            }
+        }
+        .items{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+          
+
+            .item {
+                display: flex;
+                align-items: center;
+                position: relative;
+                cursor: pointer;
+                line-height: 10px;
+        
+                .icon {
+                  font-size: 20px;
+                }
+            .avatar {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+              }
+              .counter {
+                width: 15px;
+                height: 15px;
+                background-color: red;
+                border-radius: 50%;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: bold;
+                position: absolute;
+                top: -5px;
+                right: -5px;
+              }
+            }
+      
+        }
+    }
+}

@@ -1,0 +1,83 @@
+.livePoseUserInformation{
+    width:100%;
+    max-height:130px;
+    margin:auto;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(31, 33, 37, 0.47);
+   
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 0 5px 0;
+    }
+
+    .livePosInputField{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+}
+.smallContainerCartPage{
+    margin-top: 5px;
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .cartInfo{
+        display: flex;
+        flex-wrap:wrap;
+    }
+    th{
+        text-align: left;
+        padding:5px;
+        color:#fff;
+        background:#20232a;
+        font-weight:normal;
+    }
+    td{
+        padding:10px 5px;
+
+        input{
+            width: 40px;
+            height:30px;
+            padding:5px;
+        }
+
+        a{
+            color:red;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+      
+    }
+
+    
+}
+.livePosFooter{
+    display: flex;
+    justify-content: space-between;
+    border-top:3px solid #20232a;
+    padding:5px;
+    .totalPrice{
+        display: flex;
+        justify-content: flex-end;
+    
+        table{
+       
+            width:100%;
+            max-width:400px;
+        }
+    }
+    
+}
+
+td:last-child{
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+} 
